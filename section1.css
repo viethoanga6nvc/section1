@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin    : 0;
+    padding   : 0;
+}
+
+body {
+    padding    : 50px 138px 21px;
+    background : #FFFDF4;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    position: relative;
+    width   : 370px;
+    height  : 110px;
+}
+
+h1 {
+    font-size  : 32px;
+    height     : 38px;
+    line-height: 38px;
+    color      : #374639;
+}
+
+.title p {
+    position: absolute;
+    color   : #3F514B;
+    bottom  : 5px;
+}
+
+.list {
+    display              : grid;
+    grid-template-columns: auto auto auto auto;
+    gap                  : 15px;
+}
+
+.list-item {
+    width: 260px;
+}
+
+img {
+    width : 260px;
+    height: 190px;
+}
+
+.content {
+    margin-top: 10px;
+}
+
+.course-name {
+    font-size: 20px;
+    color    : #414F42;
+
+}
+
+.description,
+#kh-mai {
+    color: #3F514B;
+}
+
+.description,
+.price {
+    margin-top: 7px;
+}
+
+.price {
+    display      : flex;
+    gap          : 7px;
+    margin-bottom: 5px;
+}
+
+#gia-goc {
+    font-size      : 12px;
+    line-height    : 18px;
+    text-decoration: line-through;
+    color          : #72776C;
+}
+
+.schedule {
+    display: flex;
+    gap    : 15px;
+}
+
+#time {
+    color: #72776C;
+}
+
+#content {
+    color: #4E5C58;
+}
+
+.list-item hr {
+    width     : 256px;
+    height    : 1px;
+    border    : none;
+    background: #ECEDEC;
+    margin    : 12px 0;
+}
