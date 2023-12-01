@@ -5,95 +5,181 @@
 }
 
 body {
-    padding    : 50px 138px 21px;
+    width      : 1917px;
+    height     : 917px;
+    top        : -422px;
+    left       : -959px;
+    padding    : 70px 194px 30px 194px;
     background : #FFFDF4;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.main {
+    width  : 1529px;
+    height : 768px;
+    display: grid;
+    gap    : 40px;
 }
 
 .title {
-    position: relative;
-    width   : 370px;
-    height  : 110px;
+    width  : 519px;
+    height : 154px;
+    display: grid;
+    gap    : 20px;
 }
 
 h1 {
-    font-size  : 32px;
-    height     : 38px;
-    line-height: 38px;
-    color      : #374639;
+    height        : 53px;
+    font-size     : 45px;
+    line-height   : 53px;
+    letter-spacing: -5%;
+    color         : #374639;
 }
 
 .title p {
-    position: absolute;
-    color   : #3F514B;
-    bottom  : 5px;
+    height     : 81px;
+    font-size  : 19px;
+    line-height: 27px;
+    color      : #3F514B;
 }
 
 .list {
+    height               : 574px;
     display              : grid;
     grid-template-columns: auto auto auto auto;
-    gap                  : 15px;
+    gap                  : 23px;
 }
 
 .list-item {
-    width: 260px;
+    width  : 365px;
+    display: grid;
+    gap    : 18px
 }
 
-img {
-    width : 260px;
-    height: 190px;
+.image1 {
+    background: url("./asset/1.jpg");
+    display   : block;
+}
+
+.cut1 {
+    width              : 365px;
+    height             : 266px;
+    background-position: -18px -1px;
+}
+
+.image2 {
+    background: url("./asset/2.jpg");
+    display   : block;
+}
+
+.cut2 {
+    width : 365px;
+    height: 266px;
+}
+
+.image3 {
+    background: url("./asset/3.jpg");
+    display   : block;
+}
+
+.cut3 {
+    width              : 365px;
+    height             : 266px;
+    background-position: -19px 0;
+}
+
+.course {
+    width   : 360px;
+    height  : 290px;
+    display : grid;
+    gap     : 20px;
+    position: relative;
 }
 
 .content {
-    margin-top: 10px;
+    width  : 308px;
+    height : 134px;
+    display: grid;
+    gap    : 6px;
 }
 
-.course-name {
-    font-size: 20px;
-    color    : #414F42;
+.subtitle {
+    width  : 308px;
+    height : 105px;
+    display: grid;
+    gap    : 8px;
+}
+
+.name {
+    height        : 25px;
+    font-size     : 20px;
+    line-height   : 25px;
+    letter-spacing: -2%;
+    color         : #414F42;
 
 }
 
-.description,
-#kh-mai {
-    color: #3F514B;
+.description {
+    width      : 308px;
+    height     : 72px;
+    font-size  : 17px;
+    line-height: 24px;
+    color      : #3F514B;
 }
 
-.description,
 .price {
-    margin-top: 7px;
-}
-
-.price {
-    display      : flex;
-    gap          : 7px;
-    margin-bottom: 5px;
+    display: flex;
+    width  : 85px;
+    height : 23px;
+    gap    : 6px;
 }
 
 #gia-goc {
-    font-size      : 12px;
+    width          : 34px;
+    height         : 17px;
+    font-size      : 13px;
     line-height    : 18px;
-    text-decoration: line-through;
+    letter-spacing : -1.3px;
     color          : #72776C;
+    text-decoration: line-through;
+}
+
+#kh-mai {
+    width      : 45px;
+    height     : 23px;
+    font-size  : 18px;
+    line-height: 23px;
+    color      : #3F514B;
+}
+
+.schedules {
+    height: 136px;
 }
 
 .schedule {
     display: flex;
-    gap    : 15px;
 }
 
 #time {
-    color: #72776C;
+    width      : 53px;
+    height     : 18px;
+    line-height: 18px;
+    margin     : 15px 20px 11px 1px;
+    font-size  : 15px;
+    color      : #72776C;
 }
 
 #content {
-    color: #4E5C58;
+    height     : 24px;
+    line-height: 24px;
+    font-size  : 14px;
+    margin     : 12px 0 8px;
+    color      : #4e5c58;
 }
 
-.list-item hr {
-    width     : 256px;
-    height    : 1px;
+hr {
     border    : none;
+    height    : 1px;
     background: #ECEDEC;
-    margin    : 12px 0;
 }
