@@ -30,6 +30,7 @@ body {
 }
 
 h1 {
+    width: 310px;
     height        : 53px;
     font-size     : 45px;
     line-height   : 53px;
