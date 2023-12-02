@@ -30,10 +30,11 @@ body {
 }
 
 h1 {
+    width         : 310px;
     height        : 53px;
     font-size     : 45px;
     line-height   : 53px;
-    letter-spacing: -5%;
+    letter-spacing: -3px;
     color         : #374639;
 }
 
@@ -112,10 +113,11 @@ h1 {
 }
 
 .name {
+    width         : 180px;
     height        : 25px;
     font-size     : 20px;
     line-height   : 25px;
-    letter-spacing: -2%;
+    letter-spacing: -1px;
     color         : #414F42;
 
 }
