@@ -30,7 +30,6 @@ body {
 }
 
 h1 {
-    width         : 310px;
     height        : 53px;
     font-size     : 45px;
     line-height   : 53px;
@@ -139,9 +138,9 @@ h1 {
 
 #gia-goc {
     width          : 34px;
-    height         : 17px;
-    font-size      : 13px;
-    line-height    : 18px;
+    height         : 23px;
+    font-size      : 14px;
+    line-height    : 23px;
     letter-spacing : -1.3px;
     color          : #72776C;
     text-decoration: line-through;
